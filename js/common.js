@@ -11,51 +11,58 @@ document.addEventListener('DOMContentLoaded', function() {
 			350: {
 				slidesPerView: 1.0,
 				spaceBetween: 10,
-				pagination: {
-          el: ".swiper-pagination",
-        },
+				navigation: {
+					nextEl: ".swiper-button-next",
+					prevEl: ".swiper-button-prev",
+				},
 			},
 			480: {
 				slidesPerView: 1.3,
 				spaceBetween: 10,
-				pagination: {
-          el: ".swiper-pagination",
-        },
+				navigation: {
+					nextEl: ".swiper-button-next",
+					prevEl: ".swiper-button-prev",
+				},
 			},
 			650: {
 				slidesPerView: 1.5,
 				spaceBetween: 20,
-				pagination: {
-          el: ".swiper-pagination",
-        },
+				navigation: {
+					nextEl: ".swiper-button-next",
+					prevEl: ".swiper-button-prev",
+				},
 			},
 			768: {
 				slidesPerView: 1.8,
 				spaceBetween: 20,
-				pagination: {
-          el: ".swiper-pagination",
-        },
+				navigation: {
+					nextEl: ".swiper-button-next",
+					prevEl: ".swiper-button-prev",
+				},
 			},
 			800: {
 				slidesPerView: 2.0,
 				spaceBetween: 30,
-				pagination: {
-          el: ".swiper-pagination",
-        },
+				navigation: {
+					nextEl: ".swiper-button-next",
+					prevEl: ".swiper-button-prev",
+				},
 			},
 			1000: {
 				slidesPerView: 2.5,
 				spaceBetween: 30,
-				pagination: {
-          el: ".swiper-pagination",
-        },
+				navigation: {
+					nextEl: ".swiper-button-next",
+					prevEl: ".swiper-button-prev",
+				},
 			},
 			1100: {
 				slidesPerView: 3,
 				spaceBetween: 30,
-				pagination: {
-          el: ".swiper-pagination",
-        },
+				navigation: {
+					nextEl: ".swiper-button-next",
+					prevEl: ".swiper-button-prev",
+				},
 			},
 			1200: {
 				slidesPerView: 4.0,
@@ -78,51 +85,58 @@ document.addEventListener('DOMContentLoaded', function() {
 			350: {
 				slidesPerView: 1.0,
 				spaceBetween: 10,
-				pagination: {
-          el: ".swiper-pagination",
-        },
+				navigation: {
+					nextEl: ".swiper-button-next",
+					prevEl: ".swiper-button-prev",
+				},
 			},
 			480: {
 				slidesPerView: 1.3,
 				spaceBetween: 10,
-				pagination: {
-          el: ".swiper-pagination",
-        },
+				navigation: {
+					nextEl: ".swiper-button-next",
+					prevEl: ".swiper-button-prev",
+				},
 			},
 			650: {
 				slidesPerView: 1.5,
 				spaceBetween: 20,
-				pagination: {
-          el: ".swiper-pagination",
-        },
+				navigation: {
+					nextEl: ".swiper-button-next",
+					prevEl: ".swiper-button-prev",
+				},
 			},
 			768: {
 				slidesPerView: 1.8,
 				spaceBetween: 20,
-				pagination: {
-          el: ".swiper-pagination",
-        },
+				navigation: {
+					nextEl: ".swiper-button-next",
+					prevEl: ".swiper-button-prev",
+				},
 			},
 			800: {
 				slidesPerView: 2.0,
 				spaceBetween: 30,
-				pagination: {
-          el: ".swiper-pagination",
-        },
+				navigation: {
+					nextEl: ".swiper-button-next",
+					prevEl: ".swiper-button-prev",
+				},
 			},
 			1000: {
 				slidesPerView: 2.5,
 				spaceBetween: 30,
-				pagination: {
-          el: ".swiper-pagination",
-        },
+				navigation: {
+					nextEl: ".swiper-button-next",
+					prevEl: ".swiper-button-prev",
+				},
 			},
 			1100: {
 				slidesPerView: 3,
 				spaceBetween: 30,
-				pagination: {
-          el: ".swiper-pagination",
-        },
+				navigation: {
+					nextEl: ".swiper-button-next",
+					prevEl: ".swiper-button-prev",
+				},
 			},
 			1200: {
 				slidesPerView: 4.0,
