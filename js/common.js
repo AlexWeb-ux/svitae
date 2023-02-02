@@ -1,12 +1,4 @@
 document.addEventListener('DOMContentLoaded', function() {
-var menu = $('.menu-link');
-	  menu.navigation();
-var elem = window.location.hash;
-if(elem) {
-	$.scrollTo(elem, 800, {
-		offset: -80
-	});
-};		
 	var swiper = new Swiper(".slider__swiper", {
     effect: 'slide',
 		loop: true,
