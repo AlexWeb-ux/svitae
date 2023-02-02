@@ -852,7 +852,22 @@ ul.contact li:nth-child(2)::before {
 .form__title {
 	margin-top: 0px;
 }
-
+/*swiper*/
 .swiper-button-next:after, .swiper-button-prev:after {
 	color: #000;
 }
+/*top*/
+#button {   
+	display: inline-block;   
+	background-color: #FF9800;   
+	width: 50px;   
+	height: 50px;   
+	text-align: center;   
+	border-radius: 4px;   
+	margin: 30px;   
+	position: fixed;   
+	bottom: 30px;   
+	right: 30px;   
+	transition: background-color .3s;   
+	z-index: 1000; 
+} 

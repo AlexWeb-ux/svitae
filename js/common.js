@@ -203,5 +203,15 @@ document.addEventListener('DOMContentLoaded', function() {
 		$('.success').fadeOut();
 		$('.video-modal').fadeOut();
 		$(this).fadeOut();		
-	})	
+	})
+	
+	var btn = $('#button');
+   $(window).scroll(function() {
+     if ($(window).scrollTop() > 300) {
+       btn.addClass('show');
+     } else {
+       btn.removeClass('show');
+     }
+   }); 
+	
 });
