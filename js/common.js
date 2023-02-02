@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
-	var $page = $('html, body');
+var $page = $('html, body');
 $('a[href*="#"]').click(function() {
     $page.animate({
         scrollTop: $($.attr(this, 'href')).offset().top
-    }, 400);
+    }, 500);
     return false;
 });
 	var swiper = new Swiper(".slider__swiper", {
@@ -213,7 +213,7 @@ $('a[href*="#"]').click(function() {
 	});
 	btn.on('click', function(e) {
 		e.preventDefault();
-		$('html, body').animate({scrollTop:0}, '300');
+		$('html, body').animate({scrollTop:0}, '400');
 	});
 	
 });
