@@ -187,7 +187,7 @@
 	.inner__video {gap: 65px;}
 	.mobile__nav {padding: 50px 25px;}
 	a.link {padding: 15px 35px;}
-	.inner__text ul li { padding: 10px 13px; margin-left: 0px; font-size: 17px; }
+	.inner__text ul li { padding: 10px 13px; margin-left: 0px; font-size: 16px; }
 	.inner__item.block ul {gap: 10px;}
 	.inner__item.block ul li { width: calc(100% / 2 - 5px); padding: 10px 15px; height: 110px; }
 	.universal__inner .inner__item.block ul li p.block__text {font-size: 13px;}
