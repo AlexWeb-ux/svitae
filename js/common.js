@@ -150,7 +150,8 @@ document.addEventListener('DOMContentLoaded', function() {
 	$('.burger_close').click(function () {
 		$('.burger_menu').fadeOut();
 	})
-//menu
+//menu	
+	$('.menu-link').navigation();
 	var elem = window.location.hash;
 	if(elem) {
 		$.scrollTo(elem, 800, {
