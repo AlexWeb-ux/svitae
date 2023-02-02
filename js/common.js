@@ -1,4 +1,11 @@
 document.addEventListener('DOMContentLoaded', function() {
+	var $page = $('html, body');
+$('a[href*="#"]').click(function() {
+    $page.animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 400);
+    return false;
+});
 	var swiper = new Swiper(".slider__swiper", {
     effect: 'slide',
 		loop: true,
