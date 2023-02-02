@@ -91,7 +91,7 @@
 	.play img { width: 65px;}
 	.inner__video {gap: 10px;}
 	.arrow {font-size: 16px;}
-	.arrow::after {content: ''; width: 135px; height: 15px; background-image: url(/images/arrow.svg);}
+	.arrow::after {content: ''; width: 135px; height: 15px; background-image: url(./images/arrow.svg);}
 }
 @media only screen and (max-width : 670px) {
 	.header {background: none;}
@@ -104,13 +104,13 @@
 	.header__inner {flex-flow: column;}
 	.inner__text {text-align: left; margin-top: 25px;}
 	.play img {width: 70px;margin-left: 30px;}
-	.img__laptop {display: block; height: 400px; margin-top: -80px; margin-bottom: -50px; background-image: url(/images/light-1.png); background-size: 680px; background-repeat: no-repeat; background-position: left center; margin-right: -15px; }
+	.img__laptop {display: block; height: 400px; margin-top: -80px; margin-bottom: -50px; background-image: url(./images/light-1.png); background-size: 680px; background-repeat: no-repeat; background-position: left center; margin-right: -15px; }
 	.inner__item {width: auto;}
 	.universal__inner {flex-flow: column;}
-  .universal {background-image: url(/images/frame-mb-1.png); background-position: left 200px;}
+  .universal {background-image: url(./images/frame-mb-1.png); background-position: left 200px;}
 	.advantage .universal__inner {flex-flow: column;flex-direction: column-reverse;padding-bottom: 25px;}
 	.advantage .inner__item.img {margin-right: -15px; margin-bottom: 50px;}
-  .advantage {background-image: url(/images/frame-mb-2.png); background-position: right top;}
+  .advantage {background-image: url(./images/frame-mb-2.png); background-position: right top;}
 	.gift .title__section {width: 100%; padding-bottom: 260px;}
 	.work__block {flex-direction: column;}
 	.work__item.img {width: 100%;}
@@ -125,7 +125,7 @@
 	.header__title h1 span {font-size: 45px;}
 	.inner__video {gap: 50px;}
 	.video-modal {width: 100%;}
-	.arrow::after {content: ''; width: 190px; height: 15px; background-image: url(/images/arrow.svg);}
+	.arrow::after {content: ''; width: 190px; height: 15px; background-image: url(./images/arrow.svg);}
 	.inner__text ul li { padding: 10px 35px;}
 	.inner__text p {display: none;}
 	.table__block ul li { width: 100%;}
@@ -180,7 +180,7 @@
 	.success {width: 95%;}
 }
 @media only screen and (max-width : 395px) {
-	.img__laptop {background-image: url(/images/header-mb.png); background-size: contain; margin-top: -120px;}
+	.img__laptop {background-image: url(./images/header-mb.png); background-size: contain; margin-top: -120px;}
 	.header__title h1 { font-size: 30px; line-height: 30px;}
 	.header__title h1 span {font-size: 30px;}
 	.header__title p {font-size: 20px;}
