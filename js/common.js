@@ -1,13 +1,12 @@
 document.addEventListener('DOMContentLoaded', function() {
-//menu	
-$('.menu-link').navigation();
+var menu = $('.menu-link');
+	  menu.navigation();
 var elem = window.location.hash;
 if(elem) {
 	$.scrollTo(elem, 800, {
 		offset: -80
 	});
 };		
-//swiper
 	var swiper = new Swiper(".slider__swiper", {
     effect: 'slide',
 		loop: true,
@@ -158,7 +157,7 @@ if(elem) {
 	$('.burger_close').click(function () {
 		$('.burger_menu').fadeOut();
 	});
-//testim
+
 	$('.testim-1').click(function(){
 		$('.hidden_block').slideToggle(300, function(){
 			if ($(this).is(':hidden')) {
@@ -179,7 +178,7 @@ if(elem) {
 		});
 		return false;
 	});
-//nav
+
 	var toggle = document.querySelector('.nav-toggle');
   toggle.addEventListener('click', function(e) {
     this.classList.toggle('opened');
@@ -204,7 +203,7 @@ if(elem) {
 		$('.video-modal').fadeOut();
 		$(this).fadeOut();		
 	});
-	//top
+
 	var btn = $('#button');
 	$(window).scroll(function() {
 		if ($(window).scrollTop() > 300) {
