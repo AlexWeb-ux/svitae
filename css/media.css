@@ -164,7 +164,7 @@
 	.active__block.price__mobile {border-color: #F5FF26;}
 	.active__block.price__mobile a {background-color: #F5FF26; border-color: #F5FF26; color: #000;}
 	.btn__mobile {text-align: center; margin: 25px 15px 25px 15px;}
-	.work {background-image: url(/images/frame-mb-3.png); background-position: right center;}
+	.work {background-image: url(../images/frame-mb-3.png); background-position: right center;}
 	.work__item.num ul.num__item:before {height: 485px;}
 	.work__item.img {display: none;}
 	.work h2 {margin-bottom: 50px;}
