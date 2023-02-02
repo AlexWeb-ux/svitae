@@ -821,7 +821,7 @@ ul.contact li:nth-child(2)::before {
 .success {
 	background-color: #0C0C0C;
 	border: 1px solid #F5FF26;
-  border-radius: 20px;
+  border-radius: 15px;
   padding: 15px;
   position: fixed;
   z-index: 20;
