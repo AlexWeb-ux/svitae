@@ -183,6 +183,10 @@ $('a[href*="#"]').click(function() {
     this.classList.toggle('opened');
 		$('.mobile__nav').toggle('hidden');
   });
+	var navmobile = document.querySelector('.mobile__nav');
+	navmobile .addEventListener('click', function(e) {
+    this.classList.toggle('hidden');
+  });
 
 	$('.sale').click(function () {
 		$('.success').fadeIn();
