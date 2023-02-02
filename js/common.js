@@ -158,7 +158,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	$('.burger_close').click(function () {
 		$('.burger_menu').fadeOut();
 	})
-
+//testim
 	$('.testim-1').click(function(){
 		$('.hidden_block').slideToggle(300, function(){
 			if ($(this).is(':hidden')) {
@@ -179,7 +179,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		});
 		return false;
 	});
-
+//nav
 	var toggle = document.querySelector('.nav-toggle');
   toggle.addEventListener('click', function(e) {
     this.classList.toggle('opened');
@@ -204,7 +204,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		$('.video-modal').fadeOut();
 		$(this).fadeOut();		
 	})
-	
+	//top
 	var btn = $('#button');
    $(window).scroll(function() {
      if ($(window).scrollTop() > 300) {
