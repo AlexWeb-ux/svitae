@@ -148,7 +148,7 @@ document.addEventListener('DOMContentLoaded', function() {
 			},
 		},
 	});
-
+//burger
 	$('.menu_icon').click(function () {
 		$('.burger_menu').fadeIn();
 	})
