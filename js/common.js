@@ -185,7 +185,8 @@ $('a[href*="#"]').click(function() {
   });
 	var navmobile = document.querySelector('.mobile__nav');
 	navmobile .addEventListener('click', function(e) {
-    this.classList.toggle('hidden');
+    $('.mobile__nav').addClass('hidden');
+		$('.nav-toggle').removeClass('opened');
   });
 
 	$('.sale').click(function () {
