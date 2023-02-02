@@ -2,11 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
    //swiper
 	var swiper = new Swiper(".slider__swiper", {
     effect: 'slide',
-    //centeredSlides: true,
-    //grabCursor: true,
-		//slideToClickedSlide: true,
 		loop: true,
-    //initialSlide: 0,
 		breakpoints: {
 			350: {
 				slidesPerView: 1.0,
@@ -76,11 +72,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	});
 	var swiper = new Swiper(".slider__swiper_1", {
     effect: 'slide',
-    //centeredSlides: true,
-    //grabCursor: true,
-		//slideToClickedSlide: true,
 		loop: true,
-    //initialSlide: 0,
 		breakpoints: {
 			350: {
 				slidesPerView: 1.0,
