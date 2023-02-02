@@ -1,4 +1,11 @@
 document.addEventListener('DOMContentLoaded', function() {
+	$(".menu").navigation();
+	var elem = window.location.hash;
+	if(elem) {
+		$.scrollTo(elem, 800, {
+			offset: -80
+		});
+	};
 //swiper
 	var swiper = new Swiper(".slider__swiper", {
     effect: 'slide',
