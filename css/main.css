@@ -304,6 +304,9 @@ ul li, ol li {
   -webkit-backdrop-filter: blur(50px);
           backdrop-filter: blur(50px);
 }
+.inner__text p {
+	font-size: 15px;
+}
 .arrow {
 	position: relative;
 }
