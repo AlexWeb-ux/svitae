@@ -709,6 +709,7 @@ p.num {
 	margin-bottom: 5px;
 	list-style-type: disc;
 	margin-left: 20px;
+	font-weight: 400;
 }
 .work__item.num .text__center {
 	margin-top: 100px;
