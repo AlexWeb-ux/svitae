@@ -545,6 +545,7 @@ p.num {
 	margin: 20px;
   padding: 10px 65px;
 	font-size: 18px;
+	font-weight: bold;
 }
 .price__block:nth-child(3) .prew__text {
   background-color: #fff;
