@@ -490,6 +490,7 @@ p.num {
 }
 .testimonials__title p {
 	font-size: 24px;
+	margin: 15px 0px;
 }
 .testimonials__title p span {
 	font-size: 18px;
@@ -513,7 +514,7 @@ p.num {
   -webkit-backdrop-filter: blur(3.5px);
           backdrop-filter: blur(3.5px);
   border-radius: 30px;
-	padding: 20px;
+	padding: 10px 30px;
 	width: calc(100% / 2 - 18px);
 }
 .price__item {
@@ -598,9 +599,11 @@ p.num {
 	margin: 20px;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 	padding-bottom: 20px;
+	font-weight: bold;
 }
 .price span {
 	font-size: 24px;
+	font-weight: 500;
 }
 .price del {
 	font-size: 24px;
