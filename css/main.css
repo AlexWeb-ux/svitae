@@ -77,7 +77,7 @@ a {
 }
 a.link {
 	font-size: 18px;
-	font-weight: 700;
+	font-weight: bold;
 	background-color: #F5FF26;
 	color: #0C0C0C;
 	padding: 15px 50px;
