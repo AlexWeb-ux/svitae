@@ -54,6 +54,7 @@ html {
 }
 body {
   font-family: 'Gilroy', sans-serif;
+	font-weight: 400;
   font-size: 20px;
   min-width: 320px;
   position: relative;
@@ -79,7 +80,6 @@ a.link {
 	color: #0C0C0C;
 	padding: 15px 50px;
 	border-radius: 50px;
-	font-weight: 700;
 }
 a.link:hover {
 	-webkit-box-shadow: 0px 0px 18px #F5FF26;
