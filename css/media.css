@@ -65,7 +65,6 @@
 	.universal__inner .inner__item.block ul li p.block__text {font-size: 15px;}
 	.usage__item ul {gap: 0px;}
 	.usage__item ul li {width: calc(100% / 3);}
-	.inner__item.block ul li {height: 130px;}
 	.footer {-webkit-box-pack: justify;-ms-flex-pack: justify;justify-content: space-between;}
 	.footer__item {width: inherit;}
 }
@@ -195,7 +194,7 @@
 	a.link {padding: 15px 35px;}
 	.inner__text ul li { padding: 10px 13px; margin-left: 0px; font-size: 16px; }
 	.inner__item.block ul {gap: 10px;}
-	.inner__item.block ul li { width: calc(100% / 2 - 5px); padding: 10px 12px; height: 130px; border-radius: 14px;}
+	.inner__item.block ul li { width: calc(100% / 2 - 5px); padding: 10px 12px; border-radius: 14px;}
 	.universal__inner .inner__item.block ul li p.block__text {font-size: 16px;}
 	.col__item {margin: 0; font-size: 24px;}	
 	.price del { font-size: 18px;}
