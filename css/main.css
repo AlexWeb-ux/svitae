@@ -348,7 +348,6 @@ ul li, ol li {
 	background-image: url(../images/bg-frame-3.png);
 	background-position: center center;
 	background-repeat: no-repeat;
-	background-size: contain;
 }
 .inner__item.block ul {
   display: -webkit-box;
