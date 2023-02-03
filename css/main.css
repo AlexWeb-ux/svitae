@@ -239,8 +239,8 @@ ul li, ol li {
   -webkit-transition: .2s ease all;
           transition: .2s ease all;
   height: 3px;
-  width: 40px;
-  margin-bottom: 10px;
+  width: 32px;
+  margin-bottom: 5px;
 }
 .opened .bar-top {
   -webkit-transform: rotate(45deg);

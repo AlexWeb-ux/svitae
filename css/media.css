@@ -73,7 +73,7 @@
 	.usage__item ul li p {font-size: 20px;}
 	.hidden__laptop { display: none;}
 	.hidden__desktop { display: block;}
-	.header { padding-top: 0px; padding-bottom: 25px;}
+	.header { padding-top: 15px; padding-bottom: 25px;}
 	.header {background-size: 930px;}
 	.header__title {width: 500px;}
 	.play img { width: 80px;}
@@ -122,7 +122,7 @@
 	.footer__item {width: 100%;}
 }	
 @media only screen and (max-width : 540px) {
-	img.desktop__logo { width: 130px;}
+	img.desktop__logo { width: 150px;}
 	.inner__text ul {width: 100%;}
 	.header__title h1 {font-size: 45px; line-height: 40px;}
 	.header__title h1 span {font-size: 45px;}
