@@ -106,7 +106,7 @@
 	.header__inner {-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-flow: column;flex-flow: column;}
 	.inner__text {text-align: center; margin-top: 25px;}
 	.play img {width: 70px;margin-left: 5px;}
-	.img__laptop {display: block; height: 405px; margin-top: -80px; margin-bottom: -50px; background-image: url(../images/light-1.png); background-size: 680px; background-repeat: no-repeat; background-position: right center; margin-right: -15px; margin-left: -15px; }
+	.img__laptop {display: block; height: 420px; margin-top: -80px; margin-bottom: -50px; background-image: url(../images/light-1.png); background-size: 680px; background-repeat: no-repeat; background-position: right center; margin-right: -15px; margin-left: -15px; }
 	.inner__item {width: auto;}
 	.universal__inner {-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-flow: column;flex-flow: column;}
   .universal {background-image: url(../images/frame-mb-1.png); background-position: left 200px;}
