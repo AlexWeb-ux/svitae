@@ -95,6 +95,7 @@ a.link.outline {
 	color: #fff;
 	border: 1px solid;
 	font-size: 18px;
+	font-weight: 500;
 }
 a.link.outline:hover {
 	-webkit-box-shadow: none;
