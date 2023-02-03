@@ -16,7 +16,6 @@ $('.mobile__link').click(function () {
 	$('.mobile__nav').css('display','none');
 	$('.nav-toggle').removeClass('opened');
 });
-
 var swiper = new Swiper(".slider__swiper", {
     effect: 'slide',
 		loop: true,
