@@ -132,6 +132,7 @@
 	.arrow::after {content: ''; width: 190px; height: 15px; background-image: url(../images/arrow.svg);}
 	.mobile {display: block;}
 	.desktop {display: none;}
+	p.num {font-size: 32px;}
 	.inner__text ul li { padding: 10px 35px;}
 	.inner__text p {display: none;}
 	.table__block ul li { width: 100%;}
@@ -194,8 +195,8 @@
 	a.link {padding: 15px 35px;}
 	.inner__text ul li { padding: 10px 13px; margin-left: 0px; font-size: 16px; }
 	.inner__item.block ul {gap: 10px;}
-	.inner__item.block ul li { width: calc(100% / 2 - 5px); padding: 10px 15px; height: 110px; }
-	.universal__inner .inner__item.block ul li p.block__text {font-size: 13px;}
+	.inner__item.block ul li { width: calc(100% / 2 - 5px); padding: 10px 15px; height: 110px; border-radius: 14px;}
+	.universal__inner .inner__item.block ul li p.block__text {font-size: 16px;}
 	.col__item {margin: 0; font-size: 24px;}	
 	.price del { font-size: 18px;}
 	.price { font-size: 24px; margin: 0;}
