@@ -35,7 +35,7 @@
 	h2 {font-size: 40px;}
 	.title__section p {font-size: 20px;}
 	.table__block ul li .table__text {font-size: 20px;}
-	.table__block ul li .table__title {font-size: 25px;}
+	.table__block ul li .table__title {font-size: 26px;}
 	.table__block ul li {padding: 10px 30px;}
 	.gift .title__section {padding-bottom: 365px;}
 	.usage__item ul li img {width: 250px;}
@@ -49,8 +49,7 @@
 	.header__title p {font-size: 25px;}
 	.play img {width: 100px;}
 	p.block__text {font-size: 15px;}
-	.table__block ul li .table__text {font-size: 15px;}
-	.table__block ul li .table__title {font-size: 20px;}
+	.table__block ul li .table__text {font-size: 18px; line-height: 22px;}
 	.table__icon svg {width: 100px; height: 80px;}
 	.table {background-size: 560px;}
 	h2 {font-size: 35px;}
