@@ -130,6 +130,8 @@
 	.inner__video {gap: 50px;}
 	.video-modal {width: 100%;}
 	.arrow::after {content: ''; width: 190px; height: 15px; background-image: url(../images/arrow.svg);}
+	.mobile {display: block;}
+	.desktop {display: none;}
 	.inner__text ul li { padding: 10px 35px;}
 	.inner__text p {display: none;}
 	.table__block ul li { width: 100%;}

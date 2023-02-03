@@ -154,6 +154,9 @@ ul li, ol li {
 .mt-50 {
 	margin-top: 50px;
 }
+.mobile {
+	display: none;
+}
 /*first-block*/
 .header {
   background-image: url(../images/light-1.png);
