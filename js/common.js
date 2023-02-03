@@ -6,7 +6,18 @@ $('a[href*="#"]').click(function() {
     }, 500);
     return false;
 });
-	var swiper = new Swiper(".slider__swiper", {
+var toggle = document.querySelector('.nav-toggle');
+toggle.addEventListener('click', function(e) {
+	this.classList.toggle('opened');
+	$('.mobile__nav').toggle('hidden');
+});
+
+$('.mobile__link').click(function () {	
+	$('.mobile__nav').addClass('hidden');
+	$('.nav-toggle').removeClass('opened');
+});
+
+var swiper = new Swiper(".slider__swiper", {
     effect: 'slide',
 		loop: true,
 		breakpoints: {
@@ -76,7 +87,7 @@ $('a[href*="#"]').click(function() {
 			},
 		},
 	});
-	var swiper = new Swiper(".slider__swiper_1", {
+var swiper = new Swiper(".slider__swiper_1", {
     effect: 'slide',
 		loop: true,
 		breakpoints: {
@@ -177,17 +188,6 @@ $('a[href*="#"]').click(function() {
 		});
 		return false;
 	});
-
-	var toggle = document.querySelector('.nav-toggle');
-  toggle.addEventListener('click', function(e) {
-    this.classList.toggle('opened');
-		$('.mobile__nav').toggle('hidden');
-  });
-
-	$('.mobile__link').click(function () {	
-    $('.mobile__nav').addClass('hidden');
-		$('.nav-toggle').removeClass('opened');
-  });
 
 	$('.sale').click(function () {
 		$('.success').fadeIn();
