@@ -151,6 +151,9 @@ ul li, ol li {
 .hidden__desktop {
 	display: none;
 }
+.mt-50 {
+	margin-top: 50px;
+}
 /*first-block*/
 .header {
   background-image: url(../images/light-1.png);
