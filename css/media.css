@@ -141,6 +141,7 @@
 	.table__block ul li:nth-child(6) {border-bottom-right-radius: 25px; border-bottom: 1px solid; border-bottom-left-radius: 25px;}
 	.table__block ul li {border-right: 1px solid;}
 	.table__block ul li .table__title {color: #F5FF26;}
+	.table__block ul li .table__title {margin: 10px 0;}
 	.table__block ul li svg circle {stroke: #F5FF26;}
 	.table__block ul li svg path { fill: #F5FF26;}
 	.gift {background: inherit;}
