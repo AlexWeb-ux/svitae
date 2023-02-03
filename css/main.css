@@ -213,6 +213,7 @@ ul li, ol li {
 .header__title p {
   color: #0C0C0C;
 	font-size: 26px;
+	font-weight: 500;
 }
 .header__inner {
   display: -webkit-box;
