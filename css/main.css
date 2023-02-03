@@ -95,7 +95,6 @@ a.link.outline {
 	color: #fff;
 	border: 1px solid;
 	font-size: 18px;
-	font-weight: 500;
 }
 a.link.outline:hover {
 	-webkit-box-shadow: none;
@@ -212,7 +211,6 @@ ul li, ol li {
 }
 .header__title p {
   color: #0C0C0C;
-	font-weight: 500;
 	font-size: 26px;
 }
 .header__inner {
@@ -273,7 +271,6 @@ ul li, ol li {
 .mobile__nav li a.link {
 	background-color: #0C0C0C;
 	color: #F5FF26;
-	font-weight: 400;
   border: 2px solid;
 	margin-top: 50px;
 }
@@ -298,7 +295,6 @@ ul li, ol li {
 	width: 500px;
 }
 .inner__text ul li {
-	font-weight: 400;
 	display: inline-block;
 	padding: 13px 27px;
 	margin: 5px;
@@ -371,7 +367,7 @@ ul li, ol li {
 }
 p.num {
 	color: #F5FF26;
-	font-weight: 800;
+	font-weight: bold;
   font-size: 35px;
 	padding-bottom: 10px;
 }
@@ -422,7 +418,7 @@ p.num {
 }
 .table__block ul li .table__title {
 	font-size: 30px;
-	font-weight: 700;
+	font-weight: bold;
 }
 .table__block ul li .table__text {
   font-size: 24px;
@@ -565,7 +561,7 @@ p.num {
 }
 .prew__text {
 	font-size: 12px;
-	font-weight: 700;
+	font-weight: bold;
 	color: #0C0C0C;
 }
 .col__item {
@@ -580,7 +576,6 @@ p.num {
 	    -ms-flex-pack: center;
 	        justify-content: center;
 	font-size: 24px;
-	font-weight: 400;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 	margin: 20px;
 	padding-bottom: 15px;
@@ -613,8 +608,6 @@ p.num {
 }
 .price__text li {
 	font-size: 16px;
-	text-align: left;
-  font-weight: 400;
 	text-align: left;
 	margin-left: 20px;
 	margin-bottom: 15px;
@@ -684,7 +677,7 @@ p.num {
 }
 .work__item.num ul.num__item li.item {
 	font-size: 24px;
-	font-weight: 700;
+	font-weight: bold;
 	margin-bottom: 45px;
 	position: relative;
 	padding-left: 50px;
@@ -703,7 +696,6 @@ p.num {
 }
 .work__item.num ul.num__item li ul li {
 	font-size: 18px;
-	font-weight: 400;
 	margin-bottom: 5px;
 	list-style-type: disc;
 	margin-left: 20px;
