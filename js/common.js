@@ -13,7 +13,7 @@ toggle.addEventListener('click', function(e) {
 });
 
 $('.mobile__link').click(function () {	
-	$('.mobile__nav').addClass('hidden');
+	$('.mobile__nav').css('diaplay','none');
 	$('.nav-toggle').removeClass('opened');
 });
 
