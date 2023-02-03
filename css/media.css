@@ -160,7 +160,7 @@
 	.mobile__item .col__item {-webkit-box-align: end;-ms-flex-align: end;align-items: flex-end;}
 	.mobile__item p {margin-bottom: 0; padding-bottom: 15px;}
 	.price__mobile a {text-align: center; border: 2px solid #FFFFFF; width: 95%; border-radius: 50px; margin: 0; padding: 15px 65px; font-weight: bold; font-size: 17px; }
-	.mobile__item .col__item span {font-size: 55px; margin-bottom: -5px;}
+	.mobile__item .col__item span {font-size: 55px; margin-bottom: -6px;}
 	.first .price__text li { list-style-type: none;}
 	.price__mobile .price__text {height: inherit;}
 	.price {text-align: right;}
