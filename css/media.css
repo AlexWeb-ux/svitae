@@ -134,6 +134,7 @@
 	p.num {font-size: 32px;}
 	.inner__text ul li { padding: 10px 35px;}
 	.inner__text p {display: none;}
+	.table {background-image: url(../images/frame-mb-3.png); background-position: right center;}
 	.table__block ul li { width: 100%;}
 	.table__block ul li:nth-child(1) {border-top-right-radius: 25px;}
 	.table__block ul li:nth-child(2) {border-top-right-radius: 0px;}
