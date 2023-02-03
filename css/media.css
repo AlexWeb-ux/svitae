@@ -131,7 +131,7 @@
 	.mobile {display: block;}
 	.desktop {display: none;}
 	p.num {font-size: 32px;}
-	.inner__text ul li { padding: 10px 35px;}
+	.inner__text ul li { padding: 13px 35px;}
 	.inner__text p {display: none;}
 	.table {background-image: url(../images/frame-mb-3.png); background-position: right center; background-size: contain;}
 	.table__block ul li { width: 100%;}
@@ -180,7 +180,7 @@
 	.header__title h1 { font-size: 40px; line-height: 40px;}
 	.header__title h1 span {font-size: 40px;}
 	.inner__video {gap: 75px;}
-	.inner__text ul li { padding: 10px 20px; margin-left: 0px; font-size: 18px; }
+	.inner__text ul li { padding: 13px 20px; margin-left: 0px; font-size: 18px; }
 	.col__item {margin: 0;}	
 	.price { margin: 0;}
 	.success {width: 95%;}
@@ -193,7 +193,7 @@
 	.inner__video {gap: 65px;}
 	.mobile__nav {padding: 50px 25px;}
 	a.link {padding: 15px 35px;}
-	.inner__text ul li { padding: 10px 13px; margin-left: 0px; font-size: 16px; }
+	.inner__text ul li {margin-left: 0px; font-size: 16px; }
 	.inner__item.block ul {gap: 10px;}
 	.inner__item.block ul li { width: calc(100% / 2 - 5px); padding: 10px 12px; border-radius: 14px;}
 	.universal__inner .inner__item.block ul li p.block__text {font-size: 16px;}
