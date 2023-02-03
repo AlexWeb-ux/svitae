@@ -246,8 +246,8 @@ ul li, ol li {
 .opened .bar-top {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
-  -webkit-transform-origin: 5% 35%;
-          transform-origin: 5% 35%;
+  -webkit-transform-origin: 25% 35%;
+          transform-origin: 25% 35%;
 }
 .opened .bar-mid {
   opacity: 0;
@@ -255,8 +255,8 @@ ul li, ol li {
 .opened .bar-bot {
   -webkit-transform: rotate(45deg);
           transform: rotate(-45deg);
-  -webkit-transform-origin: 5% 70%;
-          transform-origin: 5% 70%;
+  -webkit-transform-origin: 25% 70%;
+          transform-origin: 25% 70%;
 }
 .mobile__nav {
 	text-align: center;
