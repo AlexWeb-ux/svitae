@@ -113,7 +113,7 @@
 	.universal__inner {-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-flow: column;flex-flow: column;}
   .universal {background-image: url(../images/frame-mb-1.png); background-position: left 200px;}
 	.advantage .universal__inner {-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-flow: column;flex-flow: column;-ms-flex-direction: column-reverse;flex-direction: column-reverse;padding-bottom: 25px;}
-	.advantage .inner__item.img {margin-right: -15px; margin-bottom: 50px;}
+	.advantage .inner__item.img {margin-right: -15px; margin-bottom: 50px; margin-left: -15px;}
   .advantage {background-image: url(../images/frame-mb-2.png); background-position: right top;}
 	.gift .title__section {width: 100%; padding-bottom: 260px;}
 	.work__block {-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-direction: column;flex-direction: column;}
