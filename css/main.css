@@ -370,7 +370,6 @@ ul li, ol li {
 }
 p.num {
 	color: #F5FF26;
-	font-family: 'Gilroy-bold', sans-serif;
 	font-weight: 800;
   font-size: 35px;
 	padding-bottom: 10px;
@@ -543,7 +542,6 @@ p.num {
   border-radius: 50px;
 	margin: 20px;
   padding: 10px 65px;
-	font-family: 'Gilroy-bold', sans-serif;
 	font-size: 18px;
 }
 .price__block:nth-child(3) .prew__text {
@@ -568,7 +566,6 @@ p.num {
 	font-size: 12px;
 	font-weight: 700;
 	color: #0C0C0C;
-	font-family: 'Gilroy-bold', sans-serif;
 }
 .col__item {
 	display: -webkit-box;
@@ -588,9 +585,7 @@ p.num {
 	padding-bottom: 15px;
 }
 .col__item span {
-	font-family: 'Gilroy-900', sans-serif;
   font-size: 65px;
-	font-weight: 900;
 	color: transparent;
 	text-align: center;
   -webkit-text-stroke: 1px #F5FF26;
@@ -598,8 +593,6 @@ p.num {
 	line-height: 65px;
 }
 .price {
-	font-family: 'Gilroy-bold', sans-serif;
-  font-weight: 700;
 	font-size: 36px;
 	margin: 20px;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
@@ -607,12 +600,8 @@ p.num {
 }
 .price span {
 	font-size: 24px;
-	font-family: 'Gilroy', sans-serif;
-	font-weight: 400;
 }
 .price del {
-	font-family: 'Gilroy', sans-serif;
-	font-weight: 400;
 	font-size: 24px;
 	margin-left: 20px;
 	color: #CFCFCF;
