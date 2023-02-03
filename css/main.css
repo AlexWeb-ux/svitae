@@ -591,6 +591,7 @@ p.num {
   -webkit-text-stroke: 1px #F5FF26;
 	margin: 0;
 	line-height: 65px;
+	font-weight: bold;
 }
 .price {
 	font-size: 36px;
