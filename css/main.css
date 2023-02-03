@@ -665,8 +665,8 @@ p.num {
 	background-image: url(../images/bg-frame-3.png);
 	background-position: center center;
 	background-repeat: no-repeat;
-	background-size: contain;
-	padding-right: 50px;
+	background-size: cover;
+	padding: 50px;
 }
 .work__item.num ul.num__item {
 	position: relative;
@@ -680,7 +680,7 @@ p.num {
 	position: absolute;
 	background-image: url(../images/num.png);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: contain;
 	background-position: left center;
 	left: 0;
 	top: 0;
@@ -690,7 +690,7 @@ p.num {
 	font-weight: bold;
 	margin-bottom: 45px;
 	position: relative;
-	padding: 50px;
+	padding-left: 50px;
 }
 .work__item.num ul.num__item li.item::before {
 	content: '';
