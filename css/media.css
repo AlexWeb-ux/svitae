@@ -81,8 +81,6 @@
 	.testimonial__bg {background-size: 560px;}
 	footer .title__section {margin-bottom: 25px;}
 	.footer {gap: 10px; margin-bottom: 25px;}
-}
-@media only screen and (max-width : 890px) {
 	.inner__video {gap: 65px;}
 }
 @media only screen and (max-width : 768px) {
