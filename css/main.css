@@ -181,7 +181,7 @@ ul li, ol li {
 .mobile {
 	display: none;
 }
-/*first-block*/
+/*----------------------------------------------------------------------- header*/
 .header {
   background-image: url(../images/light-1.png);
 	background-position: right center;
