@@ -718,6 +718,7 @@ a.testim-2.link.outline {
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 50px;
+	margin-left: -50px;
 }
 .work__item.num ul.num__item {
 	position: relative;
