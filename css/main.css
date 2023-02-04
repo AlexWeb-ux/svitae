@@ -166,7 +166,7 @@ ul li, ol li {
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding-bottom: 100px;
-	padding-top: 20px;
+	padding-top: 35px;
 }
 .header__menu {
 	display: -webkit-box;
@@ -196,7 +196,7 @@ ul li, ol li {
 .header__title {
   margin-top: 250px;
 	margin-bottom: 80px;
-	width: 750px;
+	width: 790px;
 }
 .header__title h1 {
 	line-height: 65px;
@@ -327,7 +327,7 @@ a.mobile__link {
 	padding: 0;
 }
 .video img {
-	width: 1280px;
+	width: 1250px;
 }
 /*--------------------------------------------------------------------------- universal*/
 .universal {
