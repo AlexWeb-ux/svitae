@@ -358,7 +358,7 @@ a.mobile__link {
 	background-repeat: no-repeat;
 	position: relative;
 }
-.universal__inner .img img {
+.universal .universal__inner .img img {
 	scale: 1.25;
 }
 .inner__item.block ul {
