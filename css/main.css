@@ -446,7 +446,7 @@ p.num {
 	width: calc(100% / 2);
 	border-left: 1px solid;
 	border-top: 1px solid;
-	padding: 25px 50px;
+	padding: 20px 50px;
 }
 .table__block ul li:nth-child(1) {
 	border-top-left-radius: 25px;
