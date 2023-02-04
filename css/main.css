@@ -392,6 +392,12 @@ p.num {
 	background-size: contain;
 	background-position: right center;
 }
+.advantage .universal__inner .img {
+	background-image: url(../images/bg-frame-4.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
 .table {
 	padding-top: 0px;
 	background-image: url(../images/bg-frame-5.png);
