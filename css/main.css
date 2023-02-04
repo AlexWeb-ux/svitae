@@ -359,7 +359,7 @@ a.mobile__link {
 	position: relative;
 }
 .universal__inner .img img {
-	
+	scale: 1.25;
 }
 .inner__item.block ul {
   display: -webkit-box;
