@@ -396,6 +396,7 @@ p.num {
 	background-image: url(../images/bg-frame-4.png);
 	background-position: center center;
 	background-repeat: no-repeat;
+	background-size: contain;
 }
 
 .table {
