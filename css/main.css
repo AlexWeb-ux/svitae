@@ -54,7 +54,7 @@
 	font-weight: 900;
 	font-style: normal;
 }
-
+/*------------------------------------------------------------------------------------ custom*/
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -77,7 +77,7 @@ html {
 }
 body {
   font-family: 'Gilroy';
-	font-weight: 400;
+	font-weight: 300;
   font-size: 20px;
   min-width: 320px;
   position: relative;
@@ -181,7 +181,7 @@ ul li, ol li {
 .mobile {
 	display: none;
 }
-/*----------------------------------------------------------------------- header*/
+/*------------------------------------------------------------------------------------  header*/
 .header {
   background-image: url(../images/light-1.png);
 	background-position: right center;
@@ -343,7 +343,7 @@ a.mobile__link {
 	position: absolute;
   top: 20px;
 }
-/*-------------------------------------------------------------------------- video*/
+/*------------------------------------------------------------------------------------  video*/
 .video {
 	background-color: #000;
 	padding: 0;
@@ -351,7 +351,7 @@ a.mobile__link {
 .video img {
 	width: 1250px;
 }
-/*--------------------------------------------------------------------------- universal*/
+/*------------------------------------------------------------------------------------  universal*/
 .universal {
 	background-image: url(../images/bg-frame-9.png);
 	background-repeat: no-repeat;
@@ -407,7 +407,7 @@ p.num {
   font-size: 35px;
 	padding-bottom: 10px;
 }
-/*--------------------------------------------------------------------------- advantage*/
+/*------------------------------------------------------------------------------------  advantage*/
 .advantage {
 	background-image: url(../images/bg-frame.png);
 	background-repeat: no-repeat;
@@ -485,7 +485,7 @@ p.num {
 	-o-transition: all ease 0.6s;
 	transition: all ease 0.6s;
 }
-/*--------------------------------------------------------------------------- gift*/
+/*------------------------------------------------------------------------------------  gift*/
 .gift {
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.19%, #0C0C0C), color-stop(99.81%, #181818));
 	background: -o-linear-gradient(top, #0C0C0C 0.19%, #181818 99.81%);
@@ -508,7 +508,7 @@ p.num {
   width: 650px;
 	padding-bottom: 500px;
 }
-/*--------------------------------------------------------------------------- testimonials*/
+/*------------------------------------------------------------------------------------  testimonials*/
 .testimonials__title {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -560,7 +560,7 @@ a.testim-1.link.outline,
 a.testim-2.link.outline {
 	margin-top: 30px;
 }
-/*--------------------------------------------------------------------- price*/
+/*------------------------------------------------------------------------------------  price*/
 .price__item {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -684,7 +684,7 @@ a.testim-2.link.outline {
 	-o-transition: all ease 0.5s;
 	transition: all ease 0.5s;
 }
-/*------------------------------------------------------------------- work*/
+/*------------------------------------------------------------------------------------  work*/
 .work {
 	background-image: url(../images/bg-frame-6.png);
 	background-repeat: no-repeat;
@@ -758,7 +758,7 @@ a.testim-2.link.outline {
 .work__item.num .text__center {
 	margin-top: 100px;
 }
-/*--------------------------------------------------------------------------- usage*/
+/*------------------------------------------------------------------------------------  usage*/
 .usage {
 	background-image: url(../images/bg-frame-9.png);
 	background-repeat: no-repeat;
@@ -785,7 +785,7 @@ a.testim-2.link.outline {
 	font-size: 30px;
 	font-weight: 500;
 }
-/*--------------------------------------------------------------------------- footer*/
+/*------------------------------------------------------------------------------------  footer*/
 .footer {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -837,7 +837,7 @@ ul.contact li:nth-child(2)::before {
 	position: absolute;
 	left: 0;
 }
-/*--------------------------------------------------------------------------- modal*/
+/*------------------------------------------------------------------------------------  modal*/
 .close_modal::before {
 	content: "";
 	width: 18px;
@@ -896,11 +896,11 @@ ul.contact li:nth-child(2)::before {
 .form__title {
 	margin-top: 0px;
 }
-/*swiper*/
+/*------------------------------------------------------------------------------------ swiper*/
 .swiper-button-next:after, .swiper-button-prev:after {
 	color: #000;
 }
-/*top*/
+/*------------------------------------------------------------------------------------- top*/
 #button {   
 	display: inline-block;   
 	background-color:#F5FF26;  
