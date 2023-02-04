@@ -534,7 +534,8 @@ p.num {
 	padding: 10px 30px;
 	width: calc(100% / 2 - 18px);
 }
-a.testim-1.link.outline {
+a.testim-1.link.outline, 
+a.testim-2.link.outline {
 	margin-top: 30px;
 }
 /*--------------------------------------------------------------------- price*/
