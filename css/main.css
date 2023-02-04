@@ -358,6 +358,9 @@ a.mobile__link {
 	background-repeat: no-repeat;
 	position: relative;
 }
+.universal__inner .img img {
+	
+}
 .inner__item.block ul {
   display: -webkit-box;
   display: -ms-flexbox;
