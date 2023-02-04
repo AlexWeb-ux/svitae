@@ -258,8 +258,10 @@ ul li, ol li {
   background: #fff;
   display: block;
   -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
+          -ms-transform: rotate(0deg);
+      transform: rotate(0deg);
   -webkit-transition: .2s ease all;
+          -o-transition: .2s ease all;
           transition: .2s ease all;
   height: 3px;
   width: 32px;
@@ -267,18 +269,22 @@ ul li, ol li {
 }
 .opened .bar-top {
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+          -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
   -webkit-transform-origin: 15% 35%;
-          transform-origin: 15% 35%;
+          -ms-transform-origin: 15% 35%;
+      transform-origin: 15% 35%;
 }
 .opened .bar-mid {
   opacity: 0;
 }
 .opened .bar-bot {
   -webkit-transform: rotate(45deg);
-          transform: rotate(-45deg);
+          -ms-transform: rotate(-45deg);
+      transform: rotate(-45deg);
   -webkit-transform-origin: 15% 70%;
-          transform-origin: 15% 70%;
+          -ms-transform-origin: 15% 70%;
+      transform-origin: 15% 70%;
 }
 .mobile__nav {
 	text-align: center;
@@ -486,8 +492,8 @@ p.num {
 }
 /*------------------------------------------------------------------------------------  gift*/
 .gift {
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.19%, #080808), color-stop(99.81%, #181818));
 	background: -o-linear-gradient(top, #080808 0.19%, #181818 99.81%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.19%, #080808), color-stop(99.81%, #181818));
 	background: linear-gradient(180deg, #080808 0.19%, #181818 99.81%);
 	padding-bottom: 0px;
 }
@@ -911,6 +917,8 @@ ul.contact li:nth-child(2)::before {
 	position: fixed;   
 	bottom: 15px;   
 	right: 15px;   
+	-webkit-transition: background-color .3s, opacity .5s, visibility .5s;   
+	-o-transition: background-color .3s, opacity .5s, visibility .5s;   
 	transition: background-color .3s, opacity .5s, visibility .5s; 
 	opacity: 0;
   visibility: hidden;
@@ -924,4 +932,3 @@ ul.contact li:nth-child(2)::before {
   opacity: 1;
   visibility: visible;
 }
-
