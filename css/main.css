@@ -449,9 +449,8 @@ p.num {
 	-o-transition: all ease 0.6s;
 	transition: all ease 0.6s;
 }
-.table__block ul li:hover .table__title,
-.table__block ul li:hover .table__text {
-  color: #F5FF26;
+.table__block ul li:hover .table__title {
+   color: #F5FF26;
 	-webkit-transition: all ease 0.6s;
 	-o-transition: all ease 0.6s;
 	transition: all ease 0.6s;
