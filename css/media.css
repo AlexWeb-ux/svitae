@@ -162,6 +162,7 @@
 }	
 @media only screen and (max-width : 540px) {
 	.img__laptop {background-size: 570px;}
+	.header__title p {font-size: 20px; font-weight: 400;}
 	img.desktop__logo { width: 150px;}
 	.inner__text {margin-top: 50px;}
 	.inner__text ul {width: 100%;}
