@@ -101,6 +101,7 @@
 }
 @media only screen and (max-width : 768px) {
 	.video img {width: 600px;}
+	.header__inner .inner__text {width: auto;}
 	.inner__item.block ul {gap: 10px;}
 	.header {background-size: 865px;}
   .footer {-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-direction: column;flex-direction: column;}
