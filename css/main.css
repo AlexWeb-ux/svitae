@@ -847,7 +847,7 @@ ul.contact li:nth-child(2)::before {
 }
 /*------------------------------------------------------------------------------------  modal*/
 .close_modal::before {
-	content: "";
+	content: '';
 	width: 18px;
 	height: 18px;
 	background-image: url(../images/close.svg);
