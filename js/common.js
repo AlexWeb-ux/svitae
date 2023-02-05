@@ -162,11 +162,8 @@ var swiper = new Swiper(".slider__swiper_1", {
 
 	$('.testim-1').click(function(){
 		$('.hidden_block').slideToggle(300, function(){
-			if ($(this).is(':hidden')) {
-				$('.testim-1').html('Дивитися відгуки про товар');
-			} else {
-				$('.testim-1').html('Приховати');
-			}							
+			if ($(this).is(':hidden')) { $('.testim-1').html('Дивитися відгуки про товар');
+			} else { $('.testim-1').html('Приховати');}							
 		});
 		return false;
 	});
