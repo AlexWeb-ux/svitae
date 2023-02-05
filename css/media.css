@@ -130,13 +130,16 @@
 	.header__title {width: 100%; margin-top: 0;}
 	.header__title h1 span {font-size: 50px; color: #fff;}
 	.header__title p {font-size: 25px; color: rgba(255, 255, 255, 0.7);}
+	.header__inner {-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-flow: column;flex-flow: column;}
 	.mobile__nav {padding: 25px;}
 	.bg__laptop {background-image: url(../images/bg-frame-4.png); background-position: left center; background-repeat: no-repeat; background-size: contain;}
 	.inner__video {margin-left: 50px; margin-top: -30px;}
 	.inner__text ul {width: 450px;}
 	.video video {width: 100%;}
 	.video-modal {width: 650px;}
-	.header__inner {-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-flow: column;flex-flow: column;}
+	.universal .universal__inner .img img {scale: 1;}
+	.universal__inner .img {margin: -15px;}
+	.advantage .universal__inner .img {margin-top: 0px;}
 	.inner__text {margin: 0 auto; margin-top: 25px;}
 	.play img {width: 70px;margin-left: 5px;}
 	.img__laptop {display: block; height: 420px; margin-top: -80px; margin-bottom: -50px; background-image: url(../images/light-1.png); background-size: 680px; background-repeat: no-repeat; background-position: right center; margin-right: -15px; margin-left: -15px; }
