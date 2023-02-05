@@ -236,7 +236,7 @@
 	.inner__video {margin-top: -20px;}
 	.mobile {display: block;}
 	.desktop {display: none;}
-	.img__laptop {background-image: url(../images/header-mb.png); background-size: cover; height: 490px; background-position: left bottom; margin-top: -120px;}
+	.img__laptop {background-image: url(../images/header-mb.png); background-size: cover; height: 430px; background-position: left bottom; margin-top: -120px;}
 	.advantage .inner__item.img {margin-left: 40px; padding: 0px;}
 }
 @media only screen and (max-width : 395px) {
