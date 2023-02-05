@@ -252,6 +252,7 @@
 	.inner__video {margin-top: 0px; margin-left: 10px; gap: 50px;}
 	.mobile__nav {padding: 50px 25px;}
 	a.link {padding: 15px 35px;}
+	.inner__text {margin-top: 40px;}
 	.inner__text ul li {margin-left: 0px; font-size: 16px; padding: 13px 18px;}
 	.inner__item.block ul {gap: 10px;}
 	.inner__item.block ul li { width: calc(100% / 2 - 5px); padding: 10px 12px; border-radius: 14px;}
