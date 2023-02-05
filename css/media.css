@@ -7,6 +7,7 @@
 }
 @media only screen and (max-width : 1370px) {
 	.header {background-size: 1420px;}
+	.video img {width: 1000px;}
 }
 @media only screen and (max-width : 1240px) {
 	.header {background-size: 1380px;}
