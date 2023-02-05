@@ -156,7 +156,6 @@ var swiper = new Swiper(".slider__swiper_1", {
 			},
 		},
 	});
-//burger
 	$('.menu_icon').click(function () {
 		$('.burger_menu').fadeIn();
 	});
@@ -187,7 +186,6 @@ var swiper = new Swiper(".slider__swiper_1", {
 		});
 		return false;
 	});
-
 	$('.sale').click(function () {
 		$('.success').fadeIn();
 		$('.dark__block').fadeIn();		
@@ -206,7 +204,6 @@ var swiper = new Swiper(".slider__swiper_1", {
 		$('.video-modal').fadeOut();
 		$(this).fadeOut();		
 	});
-
 	var btn = $('#button');
 	$(window).scroll(function() {
 		if ($(window).scrollTop() > 300) {
