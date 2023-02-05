@@ -223,7 +223,7 @@
 	.header__title h1 { font-size: 37px; line-height: 37px;}
 	.header__title h1 span {font-size: 37px;}
 	.header__inner .inner__text {width: 450px; text-align: center;}
-	.inner__video {gap: 75px;}
+	.inner__video {gap: 45px;}
 	.inner__text ul li { padding: 13px 25px; margin-left: 0px; font-size: 18px; }
 	.col__item {margin: 0;}	
 	.testimonials__item ul {gap: 25px; margin-top: 40px;}
