@@ -54,13 +54,14 @@
 	.header__title h1 {font-size: 50px; line-height: 55px;}
 	.header__title h1 span {font-size: 50px;}
 	.header__title p {font-size: 25px;}
+	h2 {font-size: 35px;}
 	.play img {width: 100px;}
 	p.block__text {font-size: 15px;}
 	.table__block ul li .table__text {font-size: 18px; line-height: 22px;}
 	.table__icon svg {width: 100px; height: 80px;}
 	.table {background-size: 560px;}
-	h2 {font-size: 35px;}
 	p.testimonials__text { font-size: 15px;}
+	.price__item {width: 700px;}
 	.work__item.num ul.num__item li.item { font-size: 20px; margin-bottom: 40px;}
 	.work__item.img {width: 740px;}
 	.work__item.num ul.num__item:before {height: 540px;}
