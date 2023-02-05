@@ -236,11 +236,12 @@
 	.inner__video {margin-top: -20px;}
 	.mobile {display: block;}
 	.desktop {display: none;}
-	.img__laptop {background-image: url(../images/header-mb.png); background-size: cover; height: 480px; background-position: left bottom; margin-top: -120px;}
+	.img__laptop {background-image: url(../images/header-mb.png); background-size: cover; height: 490px; background-position: left bottom; margin-top: -120px;}
 	.advantage .inner__item.img {margin-left: 40px; padding: 0px;}
 }
 @media only screen and (max-width : 395px) {
 	.img__laptop {background-image: url(../images/header-mb.png); background-size: cover; background-position: left bottom; margin-top: -120px;}
+	.bg__laptop {background-image: url(../images/bg-mb.png);}
 	.header__title h1 { font-size: 34px; line-height: 34px; letter-spacing: 3px; margin-top: 35px;}
 	.header__title h1 span {font-size: 34px; letter-spacing: 0px;}
 	.header__title p {font-size: 20px;}
