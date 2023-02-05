@@ -103,7 +103,8 @@
 	.video img {width: 600px;}
 	.header__inner .inner__text {width: auto;}
 	.inner__item.block ul {gap: 10px;}
-	.header {background-size: 865px;}
+	.header {background-size: 875px;}
+	.header__title { margin-top: 70px;}
 	.work__item.img {width: 435px;}
 	.work__item.num ul.num__item:before {height: 510px;}
 	.play img { width: 65px;}
