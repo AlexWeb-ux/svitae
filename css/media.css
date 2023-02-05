@@ -100,6 +100,7 @@
 	.inner__item.block ul li {width: calc(100% / 2 - 5px);border-radius: 15px; padding: 15px 20px;}
 }
 @media only screen and (max-width : 768px) {
+	.video img {width: 600px;}
 	.inner__item.block ul {gap: 10px;}
 	.header {background-size: 865px;}
   .footer {-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-direction: column;flex-direction: column;}
