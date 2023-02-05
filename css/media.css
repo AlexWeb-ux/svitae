@@ -129,7 +129,7 @@
 	.header__title h1 span {font-size: 50px; color: #fff;}
 	.header__title p {font-size: 25px; color: rgba(255, 255, 255, 0.7);}
 	.mobile__nav {padding: 25px;}
-	.bg__laptop {background-image: url(../images/bg-frame-4.png); background-position: center center; background-repeat: no-repeat; background-size: cover;}
+	.bg__laptop {background-image: url(../images/bg-frame-4.png); background-position: left center; background-repeat: no-repeat; background-size: contain;}
 	.inner__video {margin-left: 50px; margin-top: -30px;}
 	.inner__text ul {width: 400px;}
 	.video video {width: 100%;}
