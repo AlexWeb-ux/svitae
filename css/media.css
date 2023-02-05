@@ -112,6 +112,7 @@
 	.price__item {width: auto;}
 	.arrow {font-size: 16px;}
 	.arrow::after {content: ''; width: 135px; height: 15px; background-image: url(../images/arrow.svg);}
+	.work__block {flex-direction: column; width: 435px; margin: 0 auto;}
 }
 @media only screen and (max-width : 670px) {
 	.header {background: none;}
