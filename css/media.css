@@ -101,7 +101,6 @@
 }
 @media only screen and (max-width : 768px) {
 	.video img {width: 600px;}
-	.header__inner .inner__text {width: auto;}
 	.inner__item.block ul {gap: 10px;}
 	.header {background-size: 875px;}
 	.header__title { margin-top: 100px;}
