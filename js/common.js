@@ -190,6 +190,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
     return false;
   });
+	
   $(".sale").click(function () {
     $(".success").fadeIn();
     $(".dark__block").fadeIn();
