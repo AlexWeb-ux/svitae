@@ -240,6 +240,7 @@
 	.advantage .inner__item.img {margin-left: 40px; padding: 0px;}
 }
 @media only screen and (max-width : 395px) {
+	html {background-color: #050505;}
 	h2 {font-size: 32px;}
 	.img__laptop {background-image: url(../images/header-mb.png); background-size: cover; background-position: left bottom; margin-top: -150px;}
 	.bg__laptop {background-image: url(../images/bg-mb.png); margin-left: -15px; background-position: left 55px; background-size: contain;}
