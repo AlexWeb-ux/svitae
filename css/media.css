@@ -124,6 +124,8 @@
 	.table__block ul li {padding: 10px 20px;}
 }
 @media only screen and (max-width : 670px) {
+	.header__title h1 {font-size: 55px;line-height: 55px;}
+	.header__title h1 span {font-size: 55px;}
 	.header {background: none;}
 	.header__title {width: 100%; margin-top: 0;}
 	.header__title h1 span {font-size: 50px; color: #fff;}
