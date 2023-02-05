@@ -218,14 +218,18 @@
 	.testimonials__title p {margin: 0px;}
 }
 @media only screen and (max-width : 470px) {
+	.header__title h1 {font-size: 40px;line-height: 40px;}
+	.header__title h1 span {font-size: 40px;}
 	.img__laptop {background-image: url(../images/header-mb.png); background-size: cover; background-position: left bottom; margin-top: -120px;}
 	.header__title h1 { font-size: 37px; line-height: 37px;}
 	.header__title h1 span {font-size: 37px;}
+	.header__inner .inner__text {width: 450px;}
 	.mobile {display: block;}
 	.desktop {display: none;}
 	.inner__video {gap: 75px;}
 	.inner__text ul li { padding: 13px 20px; margin-left: 0px; font-size: 18px; }
 	.col__item {margin: 0;}	
+	.testimonials__item ul {gap: 25px; margin-top: 40px;}
 	.price { margin: 0;}
 	.work__block {width: auto;}
 	.success {width: 95%;}
