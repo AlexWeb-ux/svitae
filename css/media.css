@@ -161,7 +161,7 @@
 	.footer__item {width: 100%;}
 }	
 @media only screen and (max-width : 540px) {
-	.img__laptop {background-size: 570px;}
+	.img__laptop {background-position: -25px center;}
 	.header__title p {font-size: 20px; font-weight: 400;}
 	img.desktop__logo { width: 150px;}
 	.inner__text {margin-top: 50px;}
