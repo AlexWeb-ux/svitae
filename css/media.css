@@ -110,6 +110,7 @@
 	.play img { width: 65px;}
 	.inner__video {gap: 10px;}
 	.price__item {width: auto;}
+	.gift .title__section {width: 450px; padding-bottom: 250px;}	
 	.arrow {font-size: 16px;}
 	.arrow::after {content: ''; width: 135px; height: 15px; background-image: url(../images/arrow.svg);}
 	.work__block {flex-direction: column; width: 435px; margin: 0 auto;}
