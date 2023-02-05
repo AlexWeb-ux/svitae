@@ -214,6 +214,7 @@
 	.inner__text ul li { padding: 13px 20px; margin-left: 0px; font-size: 18px; }
 	.col__item {margin: 0;}	
 	.price { margin: 0;}
+	.work__block {width: auto;}
 	.success {width: 95%;}
 }
 @media only screen and (max-width : 395px) {
