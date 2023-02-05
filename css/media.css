@@ -34,11 +34,12 @@
 	body {font-size: 18px;}
 	.header {background-size: 1100px;}
 	h1 {font-size: 60px; line-height: 55px;}
+	h2 {font-size: 40px;}
 	.header__title h1 span {font-size: 55px;}
 	.header__title {width: 630px; margin-top: 195px;}
 	.header__title p {margin-top: 10px;}
-	.play img {width: 125px;}
-	h2 {font-size: 40px;}
+	.play img {width: 110px;}
+	.video video {width: 900px;}
 	.title__section p {font-size: 20px;}
 	.table__block ul li .table__text {font-size: 20px;}
 	.table__block ul li .table__title {font-size: 26px;}
