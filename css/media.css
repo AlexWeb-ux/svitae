@@ -77,7 +77,6 @@
 }
 @media only screen and (max-width : 890px) {
 	section {padding: 25px 0px;}
-	h2 {font-size: 30px;}
 	.usage__item ul li p {font-size: 20px;}
 	.hidden__laptop { display: none;}
 	.hidden__desktop { display: block;}
