@@ -138,7 +138,7 @@
 	.video video {width: 100%;}
 	.video-modal {width: 650px;}
 	.universal .universal__inner .img img {scale: 1;}
-	.universal__inner .img {margin: -15px;}
+	.universal__inner .img {margin: -15px; padding: 15px;}
 	.advantage .universal__inner .img {margin-top: 0px;}
 	.inner__text {margin: 0 auto; margin-top: 25px;}
 	.play img {width: 70px;margin-left: 5px;}
