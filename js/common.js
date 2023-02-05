@@ -9,7 +9,7 @@ $('a[href*="#"]').click(function() {
 var toggle = document.querySelector('.nav-toggle');
 toggle.addEventListener('click', function(e) {
 	this.classList.toggle('opened');
-	$('.mobile__nav').toggle('hidden');
+	$('.mobile__nav').toggle('visible');
 });
 
 $('.mobile__link').click(function () {	
