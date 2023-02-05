@@ -104,16 +104,17 @@
 	.header__inner .inner__text {width: auto;}
 	.inner__item.block ul {gap: 10px;}
 	.header {background-size: 865px;}
-  .footer {-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-direction: column;flex-direction: column;}
 	.work__item.img {width: 435px;}
 	.work__item.num ul.num__item:before {height: 510px;}
 	.play img { width: 65px;}
 	.inner__video {gap: 10px;}
+	.advantage .universal__inner .img {margin-top: -100px;}
 	.price__item {width: auto;}
 	.gift .title__section {width: 450px; padding-bottom: 250px;}	
 	.arrow {font-size: 16px;}
 	.arrow::after {content: ''; width: 135px; height: 15px; background-image: url(../images/arrow.svg);}
 	.work__block {flex-direction: column; width: 435px; margin: 0 auto;}
+	.footer {-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-direction: column;flex-direction: column;}
 }
 @media only screen and (max-width : 670px) {
 	.header {background: none;}
