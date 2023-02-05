@@ -257,6 +257,7 @@
 	.inner__item.block ul {gap: 10px;}
 	.inner__item.block ul li { width: calc(100% / 2 - 5px); padding: 10px 12px; border-radius: 14px;}
 	.universal__inner .inner__item.block ul li p.block__text {font-size: 16px;}
+	.universal__inner .inner__item.img {margin-bottom: -30px;}
 	.advantage .inner__item.img {margin-left: 0px; padding: 0px; margin-top: -50px;}
 	.col__item {margin: 0; font-size: 24px;}	
 	.price del { font-size: 18px;}
