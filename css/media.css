@@ -22,11 +22,13 @@
 @media only screen and (max-width : 1100px) {
 	.header {background-size: 1270px;}
 	.table__block ul li {padding: 20px 40px;}
+  .price__item {margin: 0 auto; width: 800px;}
 	.price__block {width: calc(100% / 2 - 18px);}
 	.work__item.img {width: 800px;}
 	.video video {width: 800px;}
 	.table__icon svg {width: 100px;}
 	.gift .title__section {padding-bottom: 450px;}
+	.universal .universal__inner .img img {scale: 1.10;}
 }
 @media only screen and (max-width : 1024px) {
 	body {font-size: 18px;}
