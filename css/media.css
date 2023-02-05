@@ -109,6 +109,7 @@
 	.work__item.num ul.num__item:before {height: 510px;}
 	.play img { width: 65px;}
 	.inner__video {gap: 10px;}
+	.universal__inner .img { background-size: cover;}
 	.advantage .universal__inner .img {margin-top: -100px;}
 	.price__item {width: auto;}
 	.gift .title__section {width: 450px; padding-bottom: 250px;}	
