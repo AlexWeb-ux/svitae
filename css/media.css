@@ -129,6 +129,7 @@
 	.header__title h1 span {font-size: 50px; color: #fff;}
 	.header__title p {font-size: 25px; color: rgba(255, 255, 255, 0.7);}
 	.mobile__nav {padding: 25px;}
+	.bg__laptop {background-image: url(../images/bg-frame-4.png);}
 	.video video {width: 100%;}
 	.video-modal {width: 650px;}
 	.header__inner {-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-flow: column;flex-flow: column;}
