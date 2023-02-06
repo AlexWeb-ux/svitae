@@ -326,8 +326,9 @@ a.mobile__link {
 	width: 500px;
 }
 .inner__text ul li {
+	font-size: 17px;
 	display: inline-block;
-	padding: 13px 27px;
+	padding: 13px 25px;
 	margin: 5px;
 	border-radius: 30px;
 	background: rgba(0, 0, 0, 0.2);
