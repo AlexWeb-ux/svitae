@@ -889,6 +889,7 @@ ul.popup__social {
 	display: -ms-flexbox;
 	display: flex;
 	gap: 10px;
+	justify-content: center;
 }
 .popup__social li:nth-child(3) img, .popup__social li:nth-child(4) img  {
 	width: 50px;
