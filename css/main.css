@@ -895,7 +895,8 @@ ul.popup__social {
 	margin-bottom: 15px;
 }
 .popup__social li:nth-child(3) img, .popup__social li:nth-child(4) img  {
-	width: 50px;
+	width: 48px;
+	padding-top: 5px;
 }
 .video-modal {
 	background-color: #000000;
