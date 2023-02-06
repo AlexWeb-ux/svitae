@@ -884,7 +884,7 @@ ul.contact li:nth-child(2)::before {
   left: 0;
   right: 0;
 }
-.popup__social {
+ul.popup__social {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
