@@ -906,11 +906,11 @@ ul.popup__social {
   position: fixed;
   z-index: 20;
 	padding: 20px;
-  width: 750px;
+  width: 500px;
   margin: 0 auto;
   text-align: center;
   display: none;
-	top: 20%;
+	top: 50px;
   left: 0;
   right: 0;
 }
