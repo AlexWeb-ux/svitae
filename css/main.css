@@ -57,12 +57,12 @@
 /*------------------------------------------------------------------------------------ custom*/
 * {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 *:before,
 *:after {
   -webkit-box-sizing: inherit;
-  box-sizing: inherit;
+          box-sizing: inherit;
   -webkit-tap-highlight-color: transparent;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale
@@ -254,34 +254,34 @@ ul li, ol li {
 .nav-toggle [class*='bar-'] {
   background: #fff;
   display: block;
-  -webkit-transform: rotate(0deg);
-          -ms-transform: rotate(0deg);
-      transform: rotate(0deg);
+-webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
   -webkit-transition: .2s ease all;
-          -o-transition: .2s ease all;
-          transition: .2s ease all;
+  -o-transition: .2s ease all;
+  transition: .2s ease all;
   height: 3px;
   width: 32px;
   margin-bottom: 5px;
 }
 .opened .bar-top {
-  -webkit-transform: rotate(45deg);
-          -ms-transform: rotate(45deg);
-      transform: rotate(45deg);
-  -webkit-transform-origin: 15% 35%;
-          -ms-transform-origin: 15% 35%;
-      transform-origin: 15% 35%;
+-webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+-webkit-transform-origin: 15% 35%;
+    -ms-transform-origin: 15% 35%;
+        transform-origin: 15% 35%;
 }
 .opened .bar-mid {
   opacity: 0;
 }
 .opened .bar-bot {
-  -webkit-transform: rotate(45deg);
-          -ms-transform: rotate(-45deg);
-      transform: rotate(-45deg);
-  -webkit-transform-origin: 15% 70%;
-          -ms-transform-origin: 15% 70%;
-      transform-origin: 15% 70%;
+-webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+-webkit-transform-origin: 15% 70%;
+    -ms-transform-origin: 15% 70%;
+        transform-origin: 15% 70%;
 }
 .mobile__nav {
 	text-align: center;
@@ -290,6 +290,8 @@ ul li, ol li {
 	position: absolute;
 	width: 100%;
 	left: 0;
+	-webkit-transition: 0s;
+	-o-transition: 0s;
 	transition: 0s;
 }
 .mobile__nav li a {
@@ -492,8 +494,8 @@ p.num {
 }
 /*------------------------------------------------------------------------------------  gift*/
 .gift {
-	background: -o-linear-gradient(top, #080808 0.19%, #181818 99.81%);
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.19%, #080808), color-stop(99.81%, #181818));
+	background: -o-linear-gradient(top, #080808 0.19%, #181818 99.81%);
 	background: linear-gradient(180deg, #080808 0.19%, #181818 99.81%);
 	padding-bottom: 0px;
 }
@@ -888,10 +890,10 @@ ul.popup__social {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	gap: 10px;
+	gap: 10px;	
 	-webkit-box-pack: center;	
-	-ms-flex-pack: center;	
-	justify-content: center;
+	    -ms-flex-pack: center;	
+	        justify-content: center;
 	margin-bottom: 15px;
 }
 .popup__social li:nth-child(3) img {
